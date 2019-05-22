@@ -1,0 +1,1013 @@
+<!doctype html>
+<html>
+<head>
+ <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Tangerine">
+ <link rel='icon' href='images/4.png' type='image/x-icon'/ >
+    <title>Scholastic Book Clubs | Children's Books for Parents and Teachers</title>
+
+    <meta charset="utf-8" />
+    <meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style type="text/css">
+    .topwhitebox{
+      padding-top: 67px;
+      margin:0 auto;
+      width:100%;
+      height:90px;
+      background-color: #FFFFFF;
+    }
+    body{
+      margin:0;
+      padding: 0;
+      background-color: white;
+      z-index: 7;
+      z-index: 1;
+    }
+    div{
+      margin: 0;
+      padding: 0;
+    }
+    #subhead ul{
+      list-style-type:square;
+      background-color: gold;
+      font-weight: bolder;
+      color:#000970;
+      text-shadow: 2px 2px 10px yellow;
+      border:30px brown groove;
+      margin: 100px;
+      z-index: 1;
+    }
+    .topwhitebox ul{
+      list-style: none;
+      padding: 0 137px 0 137px;
+      margin:0;
+      float:left;
+      z-index: 1;
+    }
+    .top2{
+      list-style: none;
+      padding: 5px 0 0 406px;
+      margin:0;
+      float:right;
+      z-index: 2;
+    }
+    .topwhitebox a{
+      color:#D92E2C;
+      text-decoration: none;
+    }
+    .lightredbox{
+      height: 340px;
+      width:100%;
+      background-color: #D83230;
+    }
+    .fixedwidth{
+      width:992px;
+      margin:0 auto;
+      z-index: 1;
+    }
+    .lightredbox img{
+    margin-top: -3px;
+    margin-left: -4px;
+    }
+    
+    .signinbox{
+    background: #ad2826;
+    padding:0.5em 1em;
+    }
+    .teacherbox{
+    background: #ad2826;
+    padding:0.5em 1em;
+    width:287px;
+    z-index: 1;
+    text-align: center;
+    margin-right: 15px;
+    }
+    .teacherbox *{
+        display: block;
+        width: 250px;
+    }
+
+    .teacherbox .sign-fc{
+        padding:0.5em 1em;
+        margin-top:10px;
+        margin-right: 20px;
+    }
+    .teacherbox .form1{
+        padding: 0.5em 0;
+        display: grid;
+        grid-template-columns: 1fr 10fr;
+        color: white;
+    }
+
+    .teacherbox .form1 input{
+        height: 20px;
+        width: 20px;
+        border:0;
+    }
+
+    .teacherbox .form1 label{
+        display: inline-block;
+        font-size: 14px;
+    }
+
+    .teacherbox .form1 .y{
+        font-size: 12px;
+        position: relative;
+        top:-5px;
+        display: inline-block;
+    }
+
+    .teacherbox a{
+        color:#fff;
+        font-size: 12px;
+        padding: 1em 0;
+    }
+
+
+    .signinbox *{
+        display: block;
+        width: 250px;
+    }
+    .parentbox{
+    background: #ad2826;
+    padding: 0.5em 0.90000em;
+    width:287px;
+    z-index: 1;
+    text-align: center;
+    margin-right: 0px;
+    }
+    .parentbox *{
+        display: block;
+        width: 250px;
+    }
+
+    .parentbox .sign-fc{
+        padding:0.5em 1em;
+        margin-top:10px;
+        margin-right: 20px;
+    }
+    .parentbox .form1{
+        padding: 0.5em 0;
+        display: grid;
+        grid-template-columns: 1fr 10fr;
+        color: white;
+    }
+
+    .parentbox .form1 input{
+        height: 20px;
+        width: 20px;
+        border:0;
+    }
+
+    .parentbox .form1 label{
+        display: inline-block;
+        font-size: 14px;
+    }
+
+    .parentbox .form1 .y{
+        font-size: 12px;
+        position: relative;
+        top:-5px;
+        display: inline-block;
+    }
+
+    .parentbox a{
+        color:#fff;
+        font-size: 12px;
+        padding: 1em 0;
+    }
+
+    .signinbox .sign-fc{
+        padding:0.5em 1em;
+        margin-top:10px;
+        margin-right: 20px;
+    }
+    .signinbox .form1{
+        padding: 0.5em 0;
+        display: grid;
+        grid-template-columns: 1fr 10fr;
+        color: white;
+    }
+
+    .signinbox .form1 input{
+        height: 20px;
+        width: 20px;
+        border:0;
+    }
+
+    .signinbox .form1 label{
+        display: inline-block;
+        font-size: 14px;
+    }
+
+    .signinbox .form1 .y{
+        font-size: 12px;
+        position: relative;
+        top:-5px;
+        display: inline-block;
+    }
+
+    .signinbox a{
+        color:#fff;
+        font-size: 12px;
+        padding: 1em 0;
+    }
+    button{
+    padding: 1em 2em;
+    text-transform: uppercase;
+    border:0;
+    font-weight: 600;
+    font-size: 1em;
+    background: #f28005;
+    color: #fff;
+    width: 100%;
+    transition: all ease-in 200ms;
+    z-index: 1;
+    }
+
+    button:hover{
+        opacity:0.8;
+    }
+    .parentbox  button{
+    padding: 1em 2em;
+    text-transform: uppercase;
+    border:0;
+    font-weight: 600;
+    font-size: 1em;
+    background: #f28005;
+    color: #fff;
+    width: 100%;
+    transition: all ease-in 200ms;
+    z-index: 1;
+    }
+
+    .parentbox button:hover{
+        opacity:0.8;
+    }
+    .teacherbox button{
+    padding: 1em 2em;
+    text-transform: uppercase;
+    border:0;
+    font-weight: 600;
+    font-size: 1em;
+    background: #3FB0EB;
+    color: #ffffff;
+    width: 100%;
+    z-index: 2;
+    }
+
+    .teacherbox button:hover{
+        opacity:0.8;
+    }
+    .form{
+      width:311px;
+      padding-right: 18px;
+    }
+    .lightredbox ul{
+      list-style: none;
+      padding: 0;
+      margin:0;
+      float:left;
+      z-index: 1;
+    }
+
+     .lightredbox li {
+    float:left;
+    }
+    .bluebox{
+      background-image: url("images/1.jpg");
+      background-repeat:no-repeat;
+      background-size:100%;
+      height: 450px;
+      font-family: BrandonText-Regular, Arial, sans-serif;
+      font-size: 38px;
+      line-height: 47px;
+      color:#ffffff;
+      margin-top: -17px;
+    }
+    .bluebox ul{
+      list-style: none;
+      padding: 0;
+      margin:0;
+      float:left;
+      z-index: 1;
+    }
+
+    .bluebox li {
+    }
+    .bluebox img{
+      margin-top: -10px;
+      margin-bottom: 0px;
+      padding-bottom: 0px;
+      float: bottom;
+    }
+    .lovebox{
+      padding-top: 50px;
+      margin:0 auto;
+      width:100%;
+      height:112px;
+      background-color: #FFFFFF;
+      font-family: BrandonText-Regular, Arial, sans-serif;
+      font-size: 36px;
+      line-height:42px;
+      font-color:#d83230;
+      z-index: 5;
+    }
+    .fourbox{
+      width:100%;
+      height: 340px;
+      font-family: Arial, sans-serif;;
+      font-size: 18px;
+      line-height: 23px;
+      color:#3a3a3a;
+      margin-top: -30px;
+      text-align: center;
+    }
+    .fourbox ul{
+      list-style: none;
+      padding: 0;
+      margin:0;
+      float:left;
+      z-index: 1;
+    }
+
+     .fourbox li {width:245px;
+      float: left;
+      z-index: 2000;
+    }
+    .fourbox img{
+      margin:0 auto;
+    }
+    .vidbox{
+      background-color: #F4F1EA;
+      height: 412px;
+      font-family: BrandonText-Regular, Arial, sans-serif;
+      font-weight:400;
+      font-size:36px;
+      line-height:46px;
+      width:100%;
+      color:#d83230;
+      text-align: center;
+      z-index: 2;
+      border-bottom: 13px solid #F4F1EA;
+    }
+    .readbox{
+      background-color: #F4F1EA;
+      height: 90px;
+      font-family: BrandonText-Regular, Arial, sans-serif;
+      font-weight:400;
+      font-size:36px;
+      line-height:46px;
+      width:100%;
+      color:#d73131;
+      text-align: center;
+      font-style: normal;
+      z-index: 2;
+      margin-top: 50px;
+      padding-top: 28px;
+    }
+    .tepabox{
+      background-color: #F4F1EA;
+      height: 130px;
+      width:100%;
+    }
+    .tebox{
+      text-align:center;
+      font-family:BrandonText-Medium, Arial, sans-serif;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 32px;
+      color: #3fb0eb;
+    }
+    .tebox button{
+      height:44px;
+      background-color: #3FB0EB;
+      font-size: 18px;
+      text-align: center;
+      color: #ffffff;
+      font-family: Arial, sans-serif;
+      font-weight: 700;
+      margin-top: 15px;
+      }
+    .pabox{
+    text-align:center;
+    font-family:BrandonText-Medium, Arial, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    color:#f88000;
+    }
+    .pabox button{
+      height:44px;
+      background-color: #F28005;
+      font-size: 18px;
+      font-family: Arial, sans-serif;
+      font-weight: 700;
+      margin-top: 15px;
+      color: #FFFFFF;
+      text-align: center;
+      }
+    .tepabox ul{
+      margin:0;
+      float:left;
+      z-index: 1;
+      background-color: #F4F1EA;
+      width:100%;
+    }
+    .tepabox li{
+      float:left;
+      list-style: none;
+      margin: 0;
+      padding-right: 20px;
+      width:470px;
+      margin: 0 auto;
+    }
+      .fixedwidtha ul{
+      list-style: none;
+      padding: 18px;
+      margin:0;
+      float:left;
+      z-index: 1;
+      background-color: white;
+      border-left:132px solid #F4F1EA;
+      border-bottom: 13px solid #F4F1EA;
+    }
+
+     .fixedwidtha li {float:left;
+      list-style: none;
+      margin: 0;
+      padding: 0;
+    }
+    .fixedwidtha img{
+      margin-top: 0px;
+      margin-bottom: 0px;
+      padding-bottom: 0px;
+      float: bottom;
+    }
+    .fixwidtha{
+      width:949px;
+      height:387px;
+      background-color: white;
+      z-index: 1;
+      margin: 0 auto;
+      float: center;
+    }
+    .open{
+      height: 78px;
+      width: 100%;
+      background-color: #F4F1EA;
+      padding-top: 26px;
+      font-family: BrandonText-Regular, Arial, sans-serif;
+      font-weight:400;
+      font-size:36px;
+      line-height:46px;
+      color:#d83230;
+      text-align: center;
+    }
+    .academics:hover{
+      background-color: black;
+      border-radius: 20px;
+      border:10px red ridge;
+    }
+    .interests:hover{
+      background-color: black;
+      border-radius: 20px;
+      border:10px yellow ridge;
+    }
+    .achievements:hover{
+      background-color: black;
+      border-radius: 20px;
+      border:10px orange ridge;
+    }
+    .contact:hover{
+      background-color: black;
+      border-radius: 20px;
+      border:10px #00FF00 ridge;
+    }
+    #Mainhead{
+      color:#00FF00;
+      font-size: 3em;
+      font-family: Impact, Charcoal, sans-serif;
+      font-weight: lighter;
+      padding-top: 30px;
+      animation-name: example;
+      animation-duration: 2s;
+      animation-iteration-count: infinite;
+      animation-direction: alternate-reverse;
+      text-align: center;
+    }
+    @keyframes example {
+    from {color:#db3a00;}
+    to {color: #00FF00;}
+}
+    
+    #subhead{
+      color:white;
+      font-size: 1.5em;
+      font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+      font-weight: lighter;
+      padding-top: 30px;
+      padding-left: 30px;
+      padding-right: 30px;
+      text-align: justify;
+    }
+     #subhead1{
+      color:white;
+      font-size: 1.5em;
+      font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+      font-weight: lighter;
+      padding-top: 30px;
+      padding-left: 30px;
+      padding-right: 30px;
+      text-align: justify;
+      z-index: 2;
+      background-image: url(https://s28151.pcdn.co/wp-content/uploads/2018/08/Academics-Header-1-1340x550.jpg);
+      background-repeat:no-repeat;
+    background-size:100%;
+    }
+    #subhead ul{
+  margin: 50px 50px 50px 10px;
+  padding-right: 180px;
+  padding-left: 180px;
+  }
+    .end{
+       color:gold !important;
+      font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+      font-size: 1em;
+      text-align: right;
+      float:right;
+      padding-right: 10px;
+    }/*
+    .end:visited{
+      text-decoration: none;
+      color:gold !important;
+      padding-right: 10px;
+    }
+    .end:hover{
+      font-size: 1.2em;
+      color:gold !important;
+       padding-right: 10px;
+    }*/
+    .sticky1 {
+    position: -webkit-sticky;
+    position: sticky;
+    top:0;
+    z-index: 1;
+    }
+    .pos1{
+      position: relative;
+      top:0px;
+      right: 0px;
+      z-index: 3;
+    }
+    .sticky2 {
+    position: -webkit-sticky;
+    position: sticky;
+    right:0;
+    }
+    #sphs{background-image: url("https://directory.edugorilla.com/wp-content/uploads/sites/6/2018/06/c2170a7246aaa3680d026040ad37805a-1024x768.jpeg");
+      background-repeat:no-repeat;
+    background-size:100%;
+
+    }
+    #dps{
+      background-image: url("images/dps2.jpg");
+      background-repeat:no-repeat;
+    background-size:100%;
+    }
+    #sphs:hover{
+      border-radius: 200px;
+      border: 30px groove #457c3e;
+    }
+    #dps:hover{
+      border-radius: 200px;
+      border: 30px groove #2f2ab5;
+    }
+#subhead a {
+  text-decoration: none;
+  position: relative;
+  color: brown;
+  } 
+  #subhead a:after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 0%;
+  border-bottom: 5px solid green;
+  transition: 1s;
+  }
+  #subhead a:hover:after {
+    width: 100%;
+  }
+  hr{
+padding: 0;
+margin: 0;
+text-decoration: none;
+  }
+  h2 { width:980px; text-align:center; border-bottom: 1px solid white; line-height:0.1em; margin:10px 0 20px;} 
+h2 span {background-color: #D83230; padding:0 10px 0 10px; font-family: BrandonText-Medium, Arial, sans-serif;  font-weight: 525; font-size:36px ; color: #ffffff; line-height: 2px; text-transform: uppercase;}
+hr{
+  height:20px;
+  width: 139.57%;
+  border: 0 none;
+  background-color: #AD2826;
+  margin-left: -500px; 
+  margin-top: -19px;
+  margin-bottom: 20px;
+}
+h4 { width:212px; text-align:center; border-bottom: 1px solid #DBCBA6; line-height:0.1em; margin:10px 0 20px;} 
+h4 span {background-color: white; padding:0 10px 0 10px; font-family: Arial, sans-serif;  font-weight: 700; font-size:20px ; color: #d73131; line-height: 2px; text-transform: uppercase;}
+.cons{
+  width:200px;
+}
+.cons4{
+  width:195px;
+}
+.cons2{
+  width:256.14px;
+}
+p{
+  padding: 0;
+  margin: 0;
+}
+.scroll div {
+    padding: 10px;
+}
+* {
+    margin: 0px;
+    padding: 0px;
+}
+.scroll {
+    text-align: left;
+    height: 380px;
+    width: 319px;
+    overflow-y: auto;
+    float: right;
+    background-color: white;}
+.text1{
+  font-family: HelveticaNeue-Light, "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  font-size: 14px;
+  line-height: 14px;
+  font-weight: 700;
+  color: #000000;
+  text-align: left;
+  z-index: 1;
+}
+.text1 img{
+  float:left;
+  z-index: 2;
+}
+.teach{
+  float:left;
+}
+.teach ul{
+  margin: 0;
+  padding:0;
+}
+.teach li{
+  list-style: none;
+  border-right: 1px solid #D83230;
+  font-family:BrandonText-Regular, sans-serif;
+  font-size:20px;
+  font-weight:200;
+  line-height: 30px;
+  color: #3a3a3a;
+  height:100%;
+  text-align: center;
+  float: left;
+  width: 246px;
+}
+.teachbox{
+  background-color: #FFFFFF;
+  height:90px;
+  width:100%;
+}
+.teachboxa{
+  background-color: #FFFFFF;
+  color:#d83230;
+  height:90px;
+  width:100%;
+}
+
+.first{
+  border-left:  1px solid #D83230;
+}
+.firsta{
+  border-left:  4px solid #FFFFFF;
+}
+
+a{
+  border:none;
+  text-decoration: none;
+  padding: 0;
+  margin: 0;
+  color: #000000;
+  font-weight: 200;
+}
+.tepabox a{
+  border:none;
+  text-decoration: none;
+  padding: 0;
+  margin: 0;
+  color: #FFFFFF;
+  font-weight: 200;
+}
+.space1{
+  height:104px;
+  background-color: #FFFFFF;
+  width:100%;
+  margin: 0 auto;
+}
+.cobox{
+      background-color: #F4F1EA;
+      height: 175px;
+      width:100%;
+    }
+.cobox ul{
+      margin:0;
+      float:left;
+      z-index: 1;
+      background-color: #F4F1EA;
+      width:100%;
+    }
+.cobox li{
+      float:left;
+      list-style: none;
+      margin: 0;
+      padding-left: 20px;
+      width:222px;
+      border-right: 4px solid #FFFFFF;
+      text-align: left;
+      font-family: Arial, sans-serif;
+      color: #3a3a3a;
+      font-size: 14px;
+      line-height: 11px;
+    }
+.cobox a{
+  border:none;
+  text-decoration: none;
+  padding: 0;
+  margin: 0;
+  font-weight: 200;
+}
+.cobox a:hover{
+  border:none;
+  text-decoration: none;
+  padding: 0;
+  margin: 0;
+  font-weight: 200;
+  color: #f88000!important;
+}
+.cobox a:visited{
+  border:none;
+  text-decoration: none;
+  padding: 0;
+  margin: 0;
+  font-weight: 200;
+  color: #3a3a3a;
+}
+.link{
+
+}
+ .link a{
+  border:none;
+  text-decoration: none;
+  padding: 0;
+  margin: 0;
+  font-weight: 200;
+}
+.link a:hover{
+  border:none;
+  text-decoration: none;
+  padding: 0;
+  margin: 0;
+  font-weight: 200;
+  color: #f88000!important;
+}
+.link a:visited{
+  border:none;
+  text-decoration: none;
+  padding: 0;
+  margin: 0;
+  font-weight: 200;
+  color: #3a3a3a;
+}
+  </style>
+
+
+
+
+</head>
+<body>
+<div class="topwhitebox">
+  <a name="top">
+  <ul>
+    <li> <a href="index.html"><img src="images/1.png" height="90px" /></a>
+    <div class="top2"> <a href="index.html"><img src="images/2.png" height="85px" /></a></div></li>
+  </ul>
+</div>
+<div class="lightredbox">
+<div class="fixedwidth"><img src="images/3.png" height="80px"/>
+  <ul>
+    <li class="form">
+<div class="signinbox">
+            <input type="email" class="sign-fc" size="5" 
+            placeholder="Scholastic Account Email">
+            <input type="text" class="sign-fc"
+            placeholder="Scholastic Account Password">
+            <div class="form1" style="font-family:Arial, sans-serif" color="white">
+                 <input type="checkbox" name="remme"></input>
+                <label for="remme">
+                    Remember me.
+                    <span class="y">(Not recommended for public computers.)</span>
+                </label>
+            </div>
+            <button style="font-family:BrandonText-Bold, Arial, sans-serif" color="#f8b8a9" size="18px" >sign in</button>
+            <a href="index.html" style="font-family:Arial, sans-serif" color="#ffffff" size="12px" >Forgot your account information?</a>
+</div></li>
+<h2 style="font-size: 36px" "font-family: BrandonText-Medium, Arial, sans-serif" "font-weight: 400" "color: #ffffff"><span>FIRST TIME HERE?</span></h2>
+<li>
+  <div class="teacherbox">
+      <span style="font-family: BrandonText-Medium, Arial, sans-serif; text-align: center; font-size: 24px; color: white" ><br/> TEACHERS</span>
+      <br/>
+      <button style="font-family:BrandonText-Bold, Arial, sans-serif" color="#f8b8a9" size="18px" >CREATE AN ACCOUNT ></button>
+      <br/><br/><br/>
+  </div>
+</li>
+<li>
+  <div class="parentbox">
+      <span style="font-family: BrandonText-Medium, Arial, sans-serif; text-align: center; font-size: 24px; color: white" ><br/> PARENTS</span>
+      <br/>
+      <button style="font-family:BrandonText-Bold, Arial, sans-serif" color="#f8b8a9" size="18px" >GET STARTED ></button>
+      <br/><br/><br/>
+  </div>
+</li></ul></div></div>
+<br/>
+<hr/>
+<div class="bluebox">
+  <div class="fixedwidth" style="text-align: justify all;">
+ <br/>When Children Love to Read, the Future Is an Open Book<br/><a href="#"><img src="images/5.png" height="326px"/></a><img src="images/6.png" height="340px"/></div></div>
+ <div class="fixedwidth">
+  <div class="lovebox" style="color:#d83230; text-align: center ;font-weight:lighter;">
+    How to Grow the Love of Reading
+ </div>
+ <div class="fourbox">
+      <ul>
+        <li><img src="images/2.jpeg" title="Love of Reading" height="150px" />
+          <h4 style="font-size: 20px" "font-family: Arial, sans-serif; font-weight: 700 ;color: #d73131"><span>1</span></h4>
+        <div class="cons">Teachers send home
+    book flyers with many
+    more books available
+    online.</div></li>
+    <li><img src="images/3.jpeg" height="150px" />
+          <h4 style="font-size: 20px" "font-family: Arial, sans-serif; font-weight: 700 ;color: #d73131"><span>2</span></h4>
+        <div class="cons2">Kids choose books,
+    and parents submit orders<p> to teacher.</p></div></li>
+    <li><img src="images/4.jpeg" height="150px" />
+          <h4 style="font-size: 20px" "font-family: Arial, sans-serif; font-weight: 700 ;color: #d73131"><span>3</span></h4>
+        <div class="cons">Teachers submit class
+    orders to Scholastic &
+    get <b>FREE</b> Books &
+    resources for the class.</div></li>
+    <li><img src="images/5.jpeg" height="150px" />
+          <h4 style="font-size: 20px" "font-family: Arial, sans-serif; font-weight: 700 ;color: #d73131"><span>4</span></h4>
+        <div class="cons4">The Book Box arrives
+    in class, and teacher
+    distributes student book
+    orders.</div></li></ul>
+</div>
+</div>
+<div class="open">
+  <div class="fixedwidth">
+  How to Get Started</div></div>
+<div class="vidbox">
+<div class="fixedwidtha">
+  <ul>
+    <li><img src="images/7.png"  height="364px"></li>
+    <li class="text1">
+        <div class="scroll" style="height: 360px;margin-top: 0px;padding-right: 30px; border:1px solid #D2D2D2;">
+              <img src="images/i1.jpg" width="120px" style="display: inline-block;margin-right: 10px;">
+              <span style="display: inline-block;">
+              <a href="#" style="text-decoration: none;color: #3a3a3a;">
+                Teachers:<br/> The Rewards<br/> of Scholastic<br/> Book Clubs<br/>
+              </a>
+              </span>
+              <div>
+              <img src="images/i2.jpg" width="120px" style="display: inline-block;margin-right: 10px; position: relative; left:-125px;top:5px;">
+              <span style="display: inline-block;">
+              <a href="#" style="text-decoration: none;color: #3a3a3a; position: relative;top: -55px;left:-10px;">
+                  Teachers:<br/> How to Get<br/> Started<br/>
+              </a>
+              </span>
+              <img src="images/i3.jpg" width="120px" style="display: inline-block;margin-right: 10px; position: relative;top:10px;">
+              <span style="display: inline-block;">
+              <a href="#" style="text-decoration: none;color: #3a3a3a; position: relative;top: -45px;left:125px;">
+                  Parents: How<br/> to Get Started<br/>
+              </a>
+              <img src="images/i4.jpg" width="120px" style="display: inline-block;margin-right: 10px;">
+              <span style="display: inline-block;">
+              <a href="#" style="text-decoration: none;color: #3a3a3a; position: relative;top:5px;left:-05px;">
+                  Parents: How<br/> to Easily <br/>Order Online<br/>
+              </span></b>
+              </a>
+              <img src="images/i5.jpg" width="120px" style="display: inline-block;margin-right: 10px;position: relative;top: 45px;left:-130px;">
+              <span style="display: inline-block;">
+              <a href="#" style="text-decoration: none;color: #3a3a3a; position: relative;top:-15px;left:-05px;">
+                  Teachers:<br/> How to Use<br/> Bonus Points<br/>
+              </a>
+              </span>
+              <img src="images/i6.jpg" width="120px" style="display: inline-block;margin-right: 10px;position: relative;top: 65px ">
+              <span style="display: inline-block;">
+              <a href="#"style="text-decoration: none;color: #3a3a3a; position: relative;top:29px;left:-05px;">
+                  Teachers:<br/> How to Place <br/>a Class Order<br/>
+              </a>
+              </span>
+              <img src="images/i7.jpg" width="120px" style="display: inline-block;margin-right: 10px; position: relative;top: 69px">
+              <span style="display: inline-block;">
+              <a href="#"style="text-decoration: none;color: #3a3a3a; position: relative;top:+74px;left:-05px;">
+                 Teachers: <br/>Building and <br/>Sharing Wish <br/>Lists<br/>
+              </a>
+              </span> 
+              <img src="images/i8.jpg" width="120px" style="display: inline-block;margin-right: 10px;position: relative;top: 90px;left:-130px;">
+              <span style="display: inline-block;">
+                <a href="#"style="text-decoration: none;color: #3a3a3a; position: relative;top:+30px;left:-05px;">
+                    Teachers: <br/>How to Make <br/>Online<br/> Ordering<br/> 
+                </a>
+              </span>
+              <img src="images/i9.jpg" width="120px" style="display: inline-block;margin-right: 10px;position: relative;top: 100px;">
+              <span style="display: inline-block;">
+                  <a href="#"style="text-decoration: none;color: #3a3a3a; position: relative;top:+50px;left:-05px;">
+                    Understanding<br/> the My <br/>Account <br/>Page<br/>
+                </a>
+              </span>
+    </div>
+    </li>
+  </ul>
+  </div>
+  </div>
+  <div class="teachboxa" style="text-align: center; font-family: BrandonText-Regular, Arial, sans-serif;font-weight:400;font-style: normal;font-size: 36px;line-height: 42px"><br/>Exclusively for Teachers<br/></div><br/>
+  <div class="teachbox">
+    <div class="fixedwidth">
+      <div class="teach">
+        <ul>
+          <li class="first"><a href="#">Shop <br/>Exclusive <br/>Teacher Values <b>></b><br/></a></li>
+          <li><a href="#">Introduce a New<br/>Teacher—Get 250<br/>Bonus Points <b>></b><br/></a></li>
+          <li><a href="#">Sign In to<br/>Redeem Your<br/>Bonus Points <b>></b><br/></a></li>
+          <li><a href="#">New Apple<br/>Recognition and<br/>Rewards Program <b>></b><br/></a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <div class="readbox">
+    <div class="fixedwidth" style="text-align: center">
+      Let's Get Reading
+    </div>
+  </div>
+  <div class="tepabox">
+    <div class="fixedwidth">
+      <ul>
+        <li class="tebox">
+          TEACHERS
+          <a href="#"><button style="font-family:BrandonText-Bold, Arial, sans-serif; color:#FFFFFF;" >CREATE AN ACCOUNT ></a><br ></button>
+        </li>
+        <li class="pabox">
+          PARENTS
+           <a href="#"><button style="font-family:BrandonText-Bold, Arial, sans-serif; color:#FFFFFF;" >GET STARTED ><br ></a></button>
+        </li>
+      </ul>
+    </div>
+  </div>
+  <div class="space1">
+  </div>
+  <div class="cobox">
+    <div class="fixedwidth">
+    <ul>
+      <li class="firsta"><b style="line-height: 14px"><br/>FOR TEACHERS</b><br/><br/><br/><a href="#">Create an Account<br/><br/></a><a href="#">Request a Catalog</a><br/><br/><a href="#">FAQs</a><br/><br/><br/><br/><br/><br/><br/><br/> </li>
+      <li><b style="line-height: 14px"><br/>FOR PARENTS</b><br/><br/><br/><a href="#">Create an Account</a><br/><br/><a href="#">FAQs</a><br/><br/><br/><b style="line-height: 14px">CONTESTS AND PROGRAMS</b><br/><br/><br/><a href="#">All Contests</a><br/><br/><br/> </li>
+      <li><b style="line-height: 14px"><br/>CONTACT US</b><br/><br/><br/><a href="#">bookclubs@scholastic.com<br/><br/></a><a href="#">1-800-724-6527<br/><br/><br/><br/><br/><br/><br/><br/><br/><br/></a>  </li>
+      <li><b style="line-height: 14px"><br/>FOLLOW US</b><br/><br/><br/><a href="#"><img src="images/8.png" height=19px/></a><br/><br/><a href="#"><img src="images/9.png" height=19px/></a> <a href="#"><img src="images/10.png" height=19px/></a> <a href="#"><img src="images/11.png" height=19px/></a><br/><br/><br/><br/> <br/><br/> <br/><br/>  </li>
+    </ul>
+    </div>
+  </div>
+  <div class="link">
+  <div class="fixedwidth">
+    <div style="font-family:Arial, sans-serif; font-size: 12px;line-height: 18px; color: #3a3a3a;word-spacing: 0.40em;">
+          <br/><br/>
+          <a href="#">Scholastic.com</a> | <a href="#">About Scholastic</a> | <a href="#">Site Map</a> | <a href="#">Careers</a> | <a href="#">Investor Relations</a> | <a href="#">International </a>
+    </div>
+    <div style="font-family:Arial, sans-serif; font-size: 12px;line-height: 18px; color: #3a3a3a;">
+          <b><a href="#">PRIVACY POLICY</a></b>• <a href="#">TERMS OF USE</a> • TM ® & © 2019 Scholastic Inc. All Rights Reserved.
+  </div>
+  </div>
+  </div>
+
+
+
+      <div class="end">
+  <a href="#top" style="font-size: 2em; color:white"><img src="images/13.png" height="63px"/></a>
+</div>
+
+
+</body>
+</html>
